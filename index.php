@@ -1,7 +1,7 @@
 <?php
     $servername = "tqkdb.cegoxxvpdnqu.ap-northeast-1.rds.amazonaws.com";
     $username = "admin";
-    $password = "Toquockhanh93";
+    $password = "12345678";
     
     // Create connection
     $conn = mysqli_connect($servername, $username, $password);
