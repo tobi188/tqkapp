@@ -20,7 +20,7 @@
     }
 
     $sql = "INSERT INTO Persons "
-          ."VALUES('{$id}','{$name}','{$pos}','{$email}')";
+          ."VALUES('{$id}','{$name}','{$pos}','{$email}') ";
 
     $result = mysqli_query($conn, $sql);
 
